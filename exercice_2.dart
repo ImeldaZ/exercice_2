@@ -17,7 +17,7 @@ exo2_1(List maliste)
 exo2_2(String maphrase) {
  
   int pos_max=0;
-  List listeMots =maphrase.split(" "); //par hypothese que tous les separateurs de mots sont des espaces
+  List listeMots =maphrase.split(",");
  for (var i = 0; i<listeMots.length - 1; i++ ) 
   { 
     if(listeMots[i].length > listeMots[pos_max].length)
